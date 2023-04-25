@@ -38,8 +38,8 @@ const Bottom = () => {
           <Typography>
             I help businesses and individuals achieve their goals through
             creative and effective solutions. My portfolio showcases my skills
-            across various industries and mediums. Let's collaborate on your
-            next project
+            across various industries and mediums. Lets collaborate on your next
+            project
           </Typography>
         </Box>
         <Box sx={{}}>
