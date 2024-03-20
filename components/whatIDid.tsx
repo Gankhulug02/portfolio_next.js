@@ -67,7 +67,7 @@ const WhatIDid = () => {
               sx={{
                 width: { xs: '100%', sm: '300px' },
                 aspectRatio: '16/9',
-                backgroundColor: 'green',
+                // backgroundColor: 'green',
                 borderRadius: '15px',
                 overflow: 'hidden',
                 border: '1px solid grey',
