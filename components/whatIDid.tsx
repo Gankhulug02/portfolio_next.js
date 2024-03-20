@@ -18,6 +18,10 @@ const WhatIDid = () => {
       link: 'https://azure-travel.vercel.app/',
       imagePath: '/images/travel.png',
     },
+    {
+      link: 'https://gankhulug02.github.io/Lessons/js/Calculator/',
+      imagePath: '/images/calculator.png',
+    },
   ];
   return (
     <Box
@@ -59,6 +63,7 @@ const WhatIDid = () => {
         {websitesData.map((e) => {
           return (
             <Box
+              key={e.link}
               sx={{
                 width: { xs: '100%', sm: '300px' },
                 aspectRatio: '16/9',
@@ -69,6 +74,11 @@ const WhatIDid = () => {
                 cursor: 'pointer',
               }}
               onClick={() => {
+                if (e.imagePath === '/images/skill-hive.png') {
+                  alert(
+                    'Хэрвээ алдаа (504 Gateway) гарвал 5 сек хүлээгээд дахин ороорй баярлалаа ;)'
+                  );
+                }
                 router.push(e.link);
               }}
             >
