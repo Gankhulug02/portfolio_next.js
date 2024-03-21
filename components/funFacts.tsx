@@ -21,7 +21,7 @@ const FunFacts = () => {
     {
       icon: <MoreTimeOutlined sx={{ color: '#19A7CE', fontSize: '45px' }} />,
       title: 'Working Year',
-      details: currentYear - 2022,
+      details: currentYear - 2023,
     },
     {
       icon: <StarBorderRounded sx={{ color: '#19A7CE', fontSize: '45px' }} />,
@@ -33,7 +33,7 @@ const FunFacts = () => {
         <AutoAwesomeMotionRounded sx={{ color: '#19A7CE', fontSize: '45px' }} />
       ),
       title: 'Projects',
-      details: 3,
+      details: 5,
     },
   ];
   return (
@@ -77,7 +77,11 @@ const FunFacts = () => {
               width: '100%',
               height: '200px',
               border: '2px solid #e9e9e9',
+              backgroundColor: 'white',
               borderRadius: '10px',
+              '&:hover': {
+                scale: '1.05',
+              },
             }}
           >
             <Box
