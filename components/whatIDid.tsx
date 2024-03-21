@@ -12,7 +12,7 @@ const WhatIDid = () => {
     },
     {
       link: 'https://valentine-phi-gray.vercel.app/',
-      imagePath: '/images/valentine.png',
+      imagePath: '/images/valentine2.png',
     },
     {
       link: 'https://azure-travel.vercel.app/',
@@ -21,6 +21,10 @@ const WhatIDid = () => {
     {
       link: 'https://gankhulug02.github.io/Lessons/js/Calculator/',
       imagePath: '/images/calculator.png',
+    },
+    {
+      link: 'https://bananamall-task2-azuregankhulug-gmailcom.vercel.app/order',
+      imagePath: '/images/bananaTask.png',
     },
   ];
   return (
@@ -76,10 +80,13 @@ const WhatIDid = () => {
               onClick={() => {
                 if (e.imagePath === '/images/skill-hive.png') {
                   alert(
-                    'Хэрвээ алдаа (504 Gateway) гарвал 5 сек хүлээгээд дахин ороорй баярлалаа ;)'
+                    'Хэрвээ алдаа (504 Gateway) гарвал 5-10 сек хүлээгээд дахин ороорй баярлалаа ;)'
                   );
                 }
-                router.push(e.link);
+                if (e.imagePath === '/images/bananaTask.png') {
+                  alert('Dbs унтарчихсаан sorry ;)');
+                }
+                router.push(e.link, '_blank');
               }}
             >
               <Image
