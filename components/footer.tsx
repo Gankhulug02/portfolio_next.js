@@ -17,7 +17,7 @@ const Footer = () => {
         paddingX: { xs: '5%', lg: '8%' },
       }}
     >
-      <Link href="https://www.instagram.com/etoyaa02/" target="_blank">
+      <Link href="https://www.instagram.com/etoyaa01/" target="_blank">
         <Typography sx={{ color: 'grey' }}>Instagram</Typography>
       </Link>
       <Link
